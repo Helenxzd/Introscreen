@@ -3,6 +3,9 @@ body {
 	font-size: 24px;
 }
 
+ul.hidden {
+	display: none;
+}
 
 h1 {
 	justify-content: center;
