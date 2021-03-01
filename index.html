@@ -3,8 +3,7 @@
 <head>
 	<title>Intro Screen</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<script src="https://unpkg.com/@aaronshaf/html-router@1/pathname.js" type="module">
-	</script>
+	<script src="https://unpkg.com/@aaronshaf/html-router@1/hash.js" type="module"></script>
 	<style>
     pathname-switch:not(:defined) {
       visibility: hidden;
@@ -17,32 +16,32 @@
 
 <ul>
   <li>
-    <pushstate-link><a href="/Introscreen">home</a></pushstate-link>
+    <a href="#/Introscreen">home</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro1">intro1</a></pushstate-link>
+    <a href="#/Introscreen/intro1">intro1</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro2">intro2</a></pushstate-link>
+    <a href="#/Introscreen/intro2">intro2</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro3">intro3</a></pushstate-link>
+    <a href="#/Introscreen/intro3">intro3</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro4">intro4</a></pushstate-link>
+    <a href="#/Introscreen/intro4">intro4</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro5">intro5</a></pushstate-link>
+    <a href="#/Introscreen/intro5">intro5</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro6">intro6</a></pushstate-link>
+    <a href="#/Introscreen/intro6">intro6</a>
   </li>
   <li>
-    <pushstate-link><a href="/Introscreen/intro7">intro7</a></pushstate-link>
+    <a href="#/Introscreen/intro7">intro7</a>
   </li>
 </ul>
 
-<pathname-switch>
+<hash-switch>
   <template data-path="/Introscreen">
   	<h1>TEXTURE DISCRIMINATION TEST</h1>
     <div>
@@ -161,7 +160,7 @@ Use ArrowLeft/ArrowRight to select vertical/horizontal split.
 Green indicates correct answer, red indicates wrong answer.</p>
     </div>
   </template>
-</pathname-switch>
+</hash-switch>
 
 
 
