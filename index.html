@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro Screen</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://unpkg.com/@aaronshaf/html-router@1/pathname.js" type="module">
+	</script>
+	<style>
+    pathname-switch:not(:defined) {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<h1>TEXTURE DISCRIMINATION TEST</h1>
+
+<ul>
+  <li>
+    <pushstate-link><a href="/intro1">intro1</a></pushstate-link>
+  </li>
+  <li>
+    <pushstate-link><a href="/intro2">intro2</a></pushstate-link>
+  </li>
+  <li>
+    <pushstate-link><a href="/intro3">intro3</a></pushstate-link>
+  </li>
+  <li>
+    <pushstate-link><a href="/intro4">intro4</a></pushstate-link>
+  </li>
+  <li>
+    <pushstate-link><a href="/intro5">intro5</a></pushstate-link>
+  </li>
+  <li>
+    <pushstate-link><a href="/intro6">intro6</a></pushstate-link>
+  </li>
+  <li>
+    <pushstate-link><a href="/intro7">intro7</a></pushstate-link>
+  </li>
+</ul>
+
+<pathname-switch>
+  <template data-path="/intro1">
+    <h1>intro1</h1>
+  </template>
+
+  <template data-path="/intro2">
+    <h1>intro2</h1>
+  </template>
+
+  <template data-path="/intro3">
+    <h1>intro3</h1>
+  </template>
+
+  <template data-path="/intro4">
+    <h1>intro3</h1>
+  </template>
+
+  <template data-path="/intro5">
+    <h1>intro3</h1>
+  </template>
+
+  <template data-path="/intro6">
+    <h1>intro3</h1>
+  </template>
+
+  <template data-path="/intro7">
+    <h1>intro3</h1>
+  </template>
+</pathname-switch>
+
+
+
+<!-- <div>
+	<p>
+This is a test to learn about human perception of texture patterns.
+The test will be carried out in several stages, the first two to
+familiarize the user with the interface (first) and test patterns (second),
+and the rest with different display times.
+The last stage will use a small modification of the test patterns.
+    </p>
+</div>
+
+<div>
+	<p>
+The viewing distance should be 5.8 times the image size (initially
+indicated as an empty square frame.
+    </p>
+</div>
+
+<div>
+	<p>
+At every stage:
+Use ArrowDown to show the next image.
+The image will be split into 2 patterns, horizontally or vertically.
+The image will be displayed for fixed time length (different at each stage).
+You must then use ArrowLeft/ArrowRight to select vertical/horizontal split.
+You can make your selection after the image disappears.
+Green indicates correct answer, red indicates wrong answer.
+At the end of the stage, a button will appear, which you can select to
+start the next stage.
+    </p>
+</div>
+
+<div class="button"><button><pushstate-link><a href="/intro1">Start Pretest</a></pushstate-link></button></div> -->
+
+
+
+</body>
+</html>
